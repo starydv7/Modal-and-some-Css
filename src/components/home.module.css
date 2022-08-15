@@ -1,0 +1,66 @@
+.maindiv{
+    display:grid;
+    grid-template-columns:repeat(2,1fr) ;
+    gap:40px;
+     margin-left: 3%;
+}
+
+.mapMaindiv{
+     box-shadow:rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+     height:520px;
+     margin-top: 20px;
+}
+.firstChildImg{
+
+  width: 100%;
+  height: 300px;
+  padding-bottom: 2%;
+
+}
+
+.dotMainBox{
+
+    display: flex;
+    gap: 8px;
+    margin-left: 3%;
+
+}
+.dotFirstChild{
+  
+    height: 14px;background-color: rgb(75, 153, 153);
+    width: 14px;
+    border-radius: 50%;
+}
+.dotLastChild{
+  
+    height: 14px;background-color: yellow;
+    width: 14px;
+    border-radius: 50%;
+}
+.title{
+   
+    font-size: 25px;
+    color: black;
+   
+}
+.authorMaindiv{
+    
+     display: flex;
+     justify-content: space-between;
+}
+.userImg{
+ 
+    height: 60px;
+    border-radius: 50%;
+}
+.autherNameRole{
+   
+     margin-left: 3%;
+     padding-top: 4%;
+     font-size: 15px;
+}
+.content{
+    
+    margin-left: 3%;
+    padding-bottom: 5%;
+}
