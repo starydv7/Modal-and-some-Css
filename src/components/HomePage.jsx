@@ -23,7 +23,9 @@ const Home = () => {
 
   const getdata = () => {
     axios
-      .get("http://localhost:8080/post")
+      .get(
+        "https://my-json-server.typicode.com/Codeinwp/front-end-internship-api/posts"
+      )
       .then((res) => setData(res.data))
       .catch((errr) => console.log(errr));
   };
